@@ -57,7 +57,7 @@ void modbus_scan(NWLOG_HANDLE_t *logfp, char unitid, char *ipaddress, int portnu
 
 	FILE *fp, *fpcvs;
 	char filename[256];
-	sprintf(filename, "%s/cvss/%s_%s_%d.cvs_time", CFGFILEPATH, nowday, ipaddress, portnum);
+	sprintf(filename, "%s/cvss/%s_%s_%d_time.cvs", CFGFILEPATH, nowday, ipaddress, portnum);
 
 	send_to_file_start(fpcvs, filename);
 
