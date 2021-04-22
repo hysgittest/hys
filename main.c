@@ -1,4 +1,7 @@
-//test112
+//linux local (main)
+
+
+
 #include "modbus_scan.h"
 
 NWLOG_HANDLE_t logfp;
