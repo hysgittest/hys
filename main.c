@@ -1,4 +1,8 @@
-//test111111111
+//windows local (main)
+
+
+
+
 #include "modbus_scan.h"
 
 NWLOG_HANDLE_t logfp;
