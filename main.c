@@ -1,7 +1,6 @@
 //linux local (main)
-
-
-
+//windows local (main)
+//remote
 #include "modbus_scan.h"
 
 NWLOG_HANDLE_t logfp;
